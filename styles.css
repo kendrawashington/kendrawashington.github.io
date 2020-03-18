@@ -52,6 +52,8 @@ header li a:hover {
 
 #section-b{
 	background-color: rgb(79,79,79);
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
 #section-b h3 {
@@ -73,9 +75,9 @@ header li a:hover {
 	font-size: 1em;
 	padding-bottom: 2em;
 	margin-bottom: 0;
-	padding-right: 0.5em;
+	
 	margin-right: 0;
-	padding-left: 0.5em;
+	
 }
 
 #main-footer{
