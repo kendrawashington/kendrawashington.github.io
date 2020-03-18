@@ -115,6 +115,12 @@ section-resume iframe{
 }
 
 
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: rgb(255,89,255);
+	}
+}
+
 /*This will be the desktop layout format*/
 
 
