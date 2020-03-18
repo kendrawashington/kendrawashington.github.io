@@ -61,6 +61,8 @@ header li a:hover {
 	width: 100%;
 	font-size: 2em;
 	padding-top: 0.5em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
 }
 
 #section-b p {
@@ -71,6 +73,8 @@ header li a:hover {
 	font-size: 1em;
 	padding-bottom: 2em;
 	margin-bottom: 0;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
 }
 
 #main-footer{
@@ -111,7 +115,7 @@ section-resume iframe{
 /*This will be the desktop layout format*/
 
 
-@media only screen and (min-width: 769px) {
+@media all and (min-device-width: 1201px) {
 
 
 	.grid {
