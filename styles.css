@@ -1,0 +1,137 @@
+
+
+body {
+
+	background-color: rgb(200, 200, 200);
+	margin: 0;
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 80%;
+	max-width: 20em;
+	height: auto;
+	margin-left: auto;
+	margin-top: 2em;
+	margin-bottom: .5em;
+	margin-right: auto;
+}
+
+header {
+	font-family: 'Patua One', cursive;
+	background-color: white;
+    left: 0;
+    right: 0;
+    height: 80px;
+    line-height: 75px;
+}
+
+header * {
+	display: inline;
+	vertical-align: middle;
+	
+}
+
+header li {
+	margin-left: 20px;
+	margin-right:20px;
+}
+
+header li a {
+	color: rgb(79,79,79);
+	text-decoration: none;
+	
+}
+
+header li a:hover {
+    color: rgb(102, 61, 162);
+    /* blue rgb(49, 137, 220); */
+}
+
+#section-b{
+	background-color: rgb(79,79,79);
+
+}
+
+#section-b h3 {
+	
+	color: rgb(92, 252, 230);
+	font-family: 'Patua One', cursive;
+	width: 100%;
+	font-size: 2em;
+	padding-top: 0.5em;
+}
+
+#section-b p {
+	
+	color: rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	font-size: 1em;
+	padding-bottom: 2em;
+	margin-bottom: 0;
+}
+
+#main-footer{
+	margin-top: 0;
+	background-color: rgb(79,79,79);
+	padding-bottom: 2em;
+
+}
+
+.button{
+	
+	background-color: transparent;
+	border: transparent;
+}
+
+.button img{
+		height: 32px;
+		width: auto;
+		margin-left: 20px;
+		margin-right:20px;
+}
+
+.button img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.button:focus {
+	outline:0;
+}
+
+
+section-resume iframe{
+	margin-top: 2em;
+}
+
+
+/*This will be the desktop layout format*/
+
+@media(min-width: 700px) {
+
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr repeat(2, 20em) 1fr;
+		/*grid-gap: 1em;*/
+	}
+
+	 .content-wrap {
+		grid-column: 2/4;
+	}
+
+	img {
+		height: 20em;
+		width:auto;
+		margin-bottom: 2em;
+	}
+
+	#section-b {
+		width: 100%;
+	}
+	
+}
+
+	
