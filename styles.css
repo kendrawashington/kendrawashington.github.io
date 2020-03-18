@@ -1,4 +1,6 @@
-
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 
@@ -9,8 +11,7 @@ body {
 
 img {
 	display: block;
-	width: 80%;
-	max-width: 25em;
+	width: 300px;
 	height: auto;
 	margin-left: auto;
 	margin-top: 2em;
@@ -74,6 +75,7 @@ header li a:hover {
 	padding-bottom: 2em;
 	margin-bottom: 0;
 	padding-right: 0.5em;
+	margin-right: 0;
 	padding-left: 0.5em;
 }
 
@@ -116,13 +118,12 @@ section-resume iframe{
 /*This will be the desktop layout format*/
 
 
-@media all and (min-resolution: 1201dpi) {
+@media only screen and (min-width: 768px) {
 
 
 	.grid {
 		display: grid;
 		grid-template-columns: 1fr repeat(2, 20em) 1fr;
-		/*grid-gap: 1em;*/
 	}
 
 	 .content-wrap {
@@ -130,8 +131,8 @@ section-resume iframe{
 	}
 
 	img {
-		height: 20em;
-		width:auto;
+		height: auto;
+		width: 350px;
 		margin-bottom: 2em;
 	}
 
@@ -141,6 +142,10 @@ section-resume iframe{
 
 	#section-b {
 		width: 100%;
+		margin-bottom: 0;
+	}
+
+	#main-footer{
 		margin-bottom: 0;
 	}
 
