@@ -11,20 +11,32 @@
 			$("#BMECards").hide();
 			$("#CSCards").hide();
     		$("#FunCards").hide();
+    		var bme_btn = $("#BME");
+			var cs_btn = $("#CS");
+			var fun_btn = $("Fun");
   			$("#BME").click(function(){
     			$("#BMECards").show();
+    			bme_btn.css("background-color", "#663da2");
     			$("#CSCards").hide();
+    			cs_btn.css("background-color", "#4f4f4f");
     			$("#FunCards").hide();
+    			fun_btn.css("background-color", "#4f4f4f");
   			})
   			$("#CS").click(function(){
     			$("#BMECards").hide();
+    			bme_btn.css("background-color", "#4f4f4f");
     			$("#CSCards").show();
+    			cs_btn.css("background-color", "#663da2");
     			$("#FunCards").hide();
+    			fun_btn.css("background-color", "#4f4f4f");
   			})
   			$("#Fun").click(function(){
     			$("#BMECards").hide();
+    			bme_btn.css("background-color", "#4f4f4f");
     			$("#CSCards").hide();
+    			cs_btn.css("background-color", "#4f4f4f");
     			$("#FunCards").show();
+    			fun_btn.css("background-color", "#663da2");
   			});
 		});
 </script>
