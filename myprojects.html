@@ -3,8 +3,31 @@
 
 <head>
 	<link rel ="stylesheet" href= "styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Patrick+Hand+SC|Patua+One&display|Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Patrick+Hand+SC|Patua+One&display|Roboto+Slab&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#BMECards").hide();
+			$("#CSCards").hide();
+    		$("#FunCards").hide();
+  			$("#BME").click(function(){
+    			$("#BMECards").show();
+    			$("#CSCards").hide();
+    			$("#FunCards").hide();
+  			})
+  			$("#CS").click(function(){
+    			$("#BMECards").hide();
+    			$("#CSCards").show();
+    			$("#FunCards").hide();
+  			})
+  			$("#Fun").click(function(){
+    			$("#BMECards").hide();
+    			$("#CSCards").hide();
+    			$("#FunCards").show();
+  			});
+		});
+</script>
 	<title> My Projects </title>
 </head>
 <body>
@@ -22,5 +45,63 @@
   			</div>
   		</nav>
 	</header>
+<<<<<<< Updated upstream
+=======
+
+<div class="ProjectTypeButton">
+		<ul>
+			<li> 
+				<button class="p_button" id="BME"> BME </button>
+			</li>
+			<li> 
+				<button class="p_button" id="CS"> CS </button>
+			</li>
+			<li> 
+				<button class="p_button" id="Fun"> Fun! </button>
+			</li>
+			<li class="slide"></li>
+		</ul>
+	</div>
+
+	<div id="BMECards">
+		<ul>
+			<li>
+				<div class="card grid-project" >
+					<div class="cardImage">
+						<img src="conference.jpg" alt="" >
+					</div>
+					<div class="card-content">
+						<h3 class = "card-title"> Deep Learning to Ultrasound Imaging </h3>
+						<p> This project was completed as a part of research I did with the Pulse Lab at Johns Hopkins through the 2109 Leadership Alliance Summer Research Early Identification Program. Reently, rather than the traditional delay-and-sum beamforming method, deep learning is being explored as a way to create readable and segmented ultrasound images from raw ultrasound channel data. One limitation of this approach comes from the fact that this raw data must be "downsampled" for the network to train properly, which increases the likelihood for small cysts to be missed or mischaracterized. Using simulated cysts in a fully convolutional neural network developed by my lab, I tested different downsampling methods to see how accurately small cysts can be segmented. (This is a photo of me presenting this research at BMES 2019.) </p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="card grid-project">
+					<div class="cardImage">
+							<img src="transtib.jpg" alt="" />
+					</div>
+					<div class="card-content" class= "grid-project">
+						<h3 class = "card-title"> Inflatable Socket for Transtibial Prosthetics </h3>
+						<img src="model.jpg" alt="" id="left"/>
+						<p> In my Introduction to Biomedical Engineering Design class, my team chose to come up with a design involving prosthetics. We decided that we wanted to develop an inflatable socket for transtibial prosthetics.  Following amputations, the residual limb may fluctuate in size due to inflammation. Our inflatable design would allow the patient to adjust the fit of their own prosthetic to those fluctuations. Amongst many other responsibilities, I coordinated with a local Certified Prosthetist Orthotist to receive key feedback on our ideation and prototypes. To the left you can see our formal solidworks model of our design, and above one of my teammates is modeling our proof-of concept.  </p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<div id="CSCards">
+		<p>
+			A CS Test
+		</p>
+	</div>
+
+	<div id="FunCards">
+		<p>
+			A Fun! Test
+		</p>
+	</div>
+>>>>>>> Stashed changes
 </body>
 </html>
