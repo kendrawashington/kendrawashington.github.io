@@ -168,6 +168,12 @@ section-resume iframe{
 
 }
 
+#look {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
 .ProjectTypeButton button:focus {
 	outline:0;
 }
@@ -348,6 +354,14 @@ section-resume iframe{
 	
 	.card-content{
 		grid-column: 3/5;
+	}
+
+	.card-content h3{
+		font-size: 1.5em;
+	}
+
+	.card-content p{
+		font-size: 1em;
 	}
 
 	.card-content #left {
