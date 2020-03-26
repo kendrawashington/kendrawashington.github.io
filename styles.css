@@ -171,8 +171,8 @@ section-resume iframe{
 	outline:0;
 }
 
-.ProjectTypeButton button:hover {
-	background-color: rgb(102, 61, 162);
+#BME:hover, #CS:hover, #Fun:hover {
+	background-color: rgb(102, 61, 162) !important;
 	cursor: pointer;
 }
 
