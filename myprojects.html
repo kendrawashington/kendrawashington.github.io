@@ -8,6 +8,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script>
 		$(document).ready(function(){
+			$("#look").show();
 			$("#BMECards").hide();
 			$("#CSCards").hide();
     		$("#FunCards").hide();
@@ -15,6 +16,7 @@
 			var cs_btn = $("#CS");
 			var fun_btn = $("#Fun");
   			$("#BME").click(function(){
+  				$("#look").hide();
     			$("#BMECards").show();
     			bme_btn.css("background-color", "#663da2");
     			$("#CSCards").hide();
@@ -23,6 +25,7 @@
     			fun_btn.css("background-color", "#4f4f4f");
   			})
   			$("#CS").click(function(){
+  				$("#look").hide();
     			$("#BMECards").hide();
     			bme_btn.css("background-color", "#4f4f4f");
     			$("#CSCards").show();
@@ -31,6 +34,7 @@
     			fun_btn.css("background-color", "#4f4f4f");
   			})
   			$("#Fun").click(function(){
+  				$("#look").hide();
     			$("#BMECards").hide();
     			bme_btn.css("background-color", "#4f4f4f");
     			$("#CSCards").hide();
@@ -71,6 +75,10 @@
 			</li>
 			<li class="slide" ></li>
 		</ul>
+	</div>
+
+	<div id="look">
+		<h3>⮤ Come Check Out My Projects! ⮥</h3>
 	</div>
 
 	<div id="BMECards">
