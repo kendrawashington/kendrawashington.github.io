@@ -8,6 +8,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script>
 		$(document).ready(function(){
+			$("#look").show();
 			$("#BMECards").hide();
 			$("#CSCards").hide();
     			$("#FunCards").hide();
@@ -15,6 +16,7 @@
 			var cs_btn = $("#CS");
 			var fun_btn = $("#Fun");
   			$("#BME").click(function(){
+  				$("#look").hide();
     			$("#BMECards").show();
     			bme_btn.css("background-color", "#663da2");
     			$("#CSCards").hide();
@@ -23,6 +25,7 @@
     			fun_btn.css("background-color", "#4f4f4f");
   			})
   			$("#CS").click(function(){
+  				$("#look").hide();
     			$("#BMECards").hide();
     			bme_btn.css("background-color", "#4f4f4f");
     			$("#CSCards").show();
@@ -31,6 +34,7 @@
     			fun_btn.css("background-color", "#4f4f4f");
   			})
   			$("#Fun").click(function(){
+  				$("#look").hide();
     			$("#BMECards").hide();
     			bme_btn.css("background-color", "#4f4f4f");
     			$("#CSCards").hide();
@@ -73,6 +77,10 @@
 		</ul>
 	</div>
 
+	<div id="look">
+		<h3>⮤ Come Check Out My Projects! ⮥</h3>
+	</div>
+
 	<div id="BMECards">
 		<ul>
 			<li>
@@ -102,15 +110,32 @@
 	</div>
 
 	<div id="CSCards">
-		<p>
-			A CS Test
-		</p>
+		<ul>
+			<li>
+				<div class="card grid-project" >
+					<div class="cardImage">
+						<img src="websitepic.jpg" alt="" >
+					</div>
+					<div class="card-content">
+						<h3 class = "card-title"> My Personal Website </h3>
+						<p> Out of a desire to have a place less formal than a resume or a LinkedIn page where I could share everything that I working on, I challenged myself to make a personal website. So far I've learnt a lot about html, css, and jquery, and have had a lot of fun doing so. This particular project isn't finished. As web design is new to me, I hope as I keep learning new things so that this website keeps improving! </p>
+					</div>
+				</div>
+			</li>
+		</ul>
 	</div>
 
 	<div id="FunCards">
-		<p>
-			A Fun! Test
-		</p>
+		<ul>
+			<li>
+				<div class="card grid-project" >
+					<div class="card-content">
+						<h3 class = "card-title"> *Work in Progress* </h3>
+						<p> I'm still working on adding these Projects! </p>
+					</div>
+				</div>
+			</li>
+		</ul>
 	</div>
 </body>
 </html>
