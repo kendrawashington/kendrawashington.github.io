@@ -185,24 +185,24 @@ section-resume iframe{
 
 }
 
-#BMECards li {
+#BMECards li, #CSCards li, #FunCards li {
 	margin-left: auto;
   	margin-right: auto;
 	
 
 }
-#BMECards ul {
+#BMECards ul, #CSCards ul, #FunCards ul {
 	list-style: none;
 	padding: 0;
 }
 
-#BMECards .card {
+#BMECards .card, #CSCards .card, #FunCards .card {
 		margin-top: 1em;
 		margin-bottom: 1em;
 }
 
 
-#BMECards .cardImage img{
+#BMECards .cardImage img, #CSCards .cardImage img, #FunCards .cardImage img{
 	padding-top: 1em;
 	margin-left: auto;
 	margin-right: auto;
@@ -330,7 +330,7 @@ section-resume iframe{
 
 
 
-	#BMECards .cardImage {
+	#BMECards .cardImage, #CSCards .cardImage, #FunCards .cardImage {
 	grid-column: 2/3;
 	align-self: center;
 	min-width: 20em;
@@ -340,7 +340,7 @@ section-resume iframe{
 	margin-bottom: 1em;
 	}
 
-	#BMECards .card {
+	#BMECards .card , #CSCards .cardImage, #FunCards .cardImage {
 		margin-top: 1em;
 		margin-bottom: 1em;
 	}
