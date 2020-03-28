@@ -9,7 +9,7 @@ body {
 	text-align: center;
 }
 
-#section-a img {
+#section-a img, #contact-photo img {
 	display: block;
 	width: 300px;
 	height: auto;
@@ -157,7 +157,7 @@ section-resume iframe{
 
 }
 
-.p_button {
+.p_button, .c_button {
 	height: 60px;
 	width: 100px;
 	background-color: rgb(79,79,79);
@@ -179,7 +179,7 @@ section-resume iframe{
 	outline:0;
 }
 
-#BME:hover, #CS:hover, #Fun:hover {
+#BME:hover, #CS:hover, #Fun:hover, #contact-buttons:hover {
 	background-color: rgb(102, 61, 162) !important;
 	cursor: pointer;
 }
@@ -198,7 +198,7 @@ section-resume iframe{
 	
 
 }
-#BMECards ul, #CSCards ul, #FunCards ul {
+#BMECards ul, #CSCards ul, #FunCards ul, #contact-buttons ul {
 	list-style: none;
 	padding: 0;
 }
@@ -244,6 +244,25 @@ section-resume iframe{
 }
 
 
+/* Contact Photo */
+
+.c_button {
+	width: 250px;
+	margin: 0.5em 0 0.5em 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*This will be the tablet and large phone format*/
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -252,6 +271,26 @@ section-resume iframe{
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*This will be the desktop layout format*/
