@@ -179,7 +179,7 @@ section-resume iframe{
 	outline:0;
 }
 
-#BME:hover, #CS:hover, #Fun:hover, #contact-buttons:hover {
+#BME:hover, #CS:hover, #Fun:hover, #contact-buttons button:hover {
 	background-color: rgb(102, 61, 162) !important;
 	cursor: pointer;
 }
@@ -304,7 +304,7 @@ section-resume iframe{
 		grid-template-columns: 1fr repeat(2, 20em) 1fr;
 	}
 
-	 .content-wrap {
+	 .content-wrap, .spread {
 		grid-column: 2/4;
 	}
 
