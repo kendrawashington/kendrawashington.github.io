@@ -144,7 +144,7 @@ section-resume iframe{
 	margin-top: 2em;
 }
 
-/*Project Page */
+/*Project Page and Contact Page*/
 
 
 .ProjectTypeButton ul {
@@ -175,7 +175,7 @@ section-resume iframe{
 
 }
 
-.ProjectTypeButton button:focus {
+.ProjectTypeButton button:focus, #contact-buttons button:focus {
 	outline:0;
 }
 
@@ -269,6 +269,15 @@ section-resume iframe{
 	#main-footer{
 		bottom: 0;
 	}
+	
+	/*Project Page */
+	.card-content h3{
+		font-size: 1.5em;
+	}
+
+	.card-content p{
+		font-size: 1em;
+	}
 
 }
 
@@ -347,7 +356,7 @@ section-resume iframe{
 	    /* blue rgb(49, 137, 220); */
 	}
 
-	#section-a img {
+	#section-a img,  #contact-photo img{
 		height: auto;
 		width: 350px;
 		margin-bottom: 2em;
@@ -397,16 +406,16 @@ section-resume iframe{
 	}
 
 	.card-content h3{
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	.card-content p{
-		font-size: 1em;
+		font-size: 1.3em;
 	}
 
 	.card-content #left {
 		max-width: 80px;
-		float: left-center;
+		float: left;
 	}
 
 
