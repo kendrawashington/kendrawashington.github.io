@@ -168,6 +168,7 @@ section-resume iframe{
 	color:white;
 	border: none;
 	font-size: 1.2em;
+	z-index: 0;
 
 }
 
