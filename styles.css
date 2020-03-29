@@ -29,7 +29,6 @@ header {
 	text-align: right;
 	position: relative;
 	z-index: 2;
-
 }
 
 #main {
@@ -116,7 +115,6 @@ color: rgb(102, 61, 162);
 	font-size: 1em;
 	padding-bottom: 2em;
 	margin-bottom: 0;
-	
 	margin-right: 0;
 	
 }
