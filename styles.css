@@ -17,6 +17,7 @@ body {
 	margin-top: 2em;
 	margin-bottom: .5em;
 	margin-right: auto;
+	z-index: 0;
 }
 
 header {
@@ -43,6 +44,7 @@ label {
 	text-align: center;
 	width: 100%;
 	display:none;
+	z-index: 2;
 	
 }
 
