@@ -17,7 +17,7 @@ body {
 	margin-top: 2em;
 	margin-bottom: .5em;
 	margin-right: auto;
-	z-index: 0;
+	
 }
 
 header {
@@ -28,6 +28,8 @@ header {
     height: 80px;
     line-height: 65px;
     text-align: right;
+	postition: relative;
+	z-index:2;
 
 }
 
